@@ -1,0 +1,39 @@
+/* ======= base style ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Almarai', sans-serif;
+}
+.font{
+  font-family: 'Almarai', sans-serif;
+  font-size: 15px;
+}
+.color-body{
+  height: 100vh;
+  background-color: #fafafa;
+}
+.img-avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.rectangle{
+  height: 550px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 0.25) ;
+
+}
+.btn{
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #224f61;
+  padding: 8px;
+}
+.btn:hover{
+  color: rgb(148, 148, 162) !important;
+  background-color: #224f61;
+}
